@@ -77,3 +77,5 @@ _Eduskills | Oct 2021 – Dec 2021_
 - Participated in cultural events and competitions, including Samyak 2023.  
 - Actively engaged in organizing corporate group events and student activities.  
 
+```{tableofcontents}
+```
