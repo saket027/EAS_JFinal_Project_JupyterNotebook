@@ -1,9 +1,47 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 
+# format: jb-book
+# root: welcome_page
+# options:
+#   numbered: True
+# chapters:
+# - file: courses/eas503/eas503
+#   sections:
+#     - file: courses/eas503/Updated_AirQuality
+
+# format: jb-book
+# root: welcome_page
+# options:
+#   numbered: true
+# chapters:
+# - file: courses/eas503/eas503 
+#   title: Resume
+
+# - file: courses/eas503/Updated_AirQuality
+#   title: Air Quality Analysis
+
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+# format: jb-book
+# root: intro
+# options:
+#   numbered: true
+# chapters:
+# - file: eas503_project/details
+#   sections:
+#   - file: eas503_project/3NF_form_of_insurance_dataset
+#   - file: eas503_project/eas-503-project
+
+# Table of Contents for JupyterBook
 format: jb-book
-root: intro
+root: welcome_page  # Main landing page of the book
+options:
+  numbered: true
 chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+- file: airquality/details
+  title: Description
+
+- file: airquality/Updated_AirQuality
+  title: Air Quality Analysis
